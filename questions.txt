@@ -1,52 +1,52 @@
-Open main1.py. Before running it, what do you expect this program to do? 
+Open main1.py. Before running it, what do you expect this program to do? to say "Greetings" followed by a random color being presented
 
 Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
 
-What do you think the program did with what you typed?
+What do you think the program did with what you typed? It printed the word greetigs and then created the question that most likely has an output, being colors.
 
 
 
-Open main2.py. Before running it, describe how this is different than main1.py. 
+Open main2.py. Before running it, describe how this is different than main1.py. It now has a 3rd line
 
-What do you think the color = input() will do? 
+What do you think the color = input() will do? The color input will select a random color to print
 
-Run the program in the terminal and answer the question. Did the program do what you expected?
-
-
-
-Open main3.py. Before running it, describe how this is different than main2.py. 
-
-What is happening on lines 11–14? 
-
-Why are lines 12 and 14 indented? 
-
-Run the program and answer the question. What happens if you don’t capitalize Red? 
-
-What does this tell you about "color"?
+Run the program in the terminal and answer the question. Did the program do what you expected? I thought it would just generate a random color, but I entered a color and then it made an output of that color
 
 
 
-Open main4.py. Before running it, describe how this is different than main2.py. 
+Open main3.py. Before running it, describe how this is different than main2.py. It now has an if with a correct and wrong answer
 
-What problem is this trying to solve? 
+What is happening on lines 11–14? if the color inputed is red then it is correct, otherwise it is incorrect and will have to try again
 
-Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
+Why are lines 12 and 14 indented? to keep code working correctly and organized
 
+Run the program and answer the question. What happens if you don’t capitalize Red? It will tell you that it is incorrect and try again
 
-
-Open main5.py. What do you expect line 11 to do? 
-
-What problem is it trying to solve? 
-
-Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
+What does this tell you about "color"? color is given a specific name and must match correctly
 
 
 
-Open main6.py. How is line 11 different than main5.py? 
+Open main4.py. Before running it, describe how this is different than main2.py. there is now an "or" meaning that either Red or red is acceptable 
 
-What would you guess .strip() is doing? 
+What problem is this trying to solve? the issue of being case sensitive
 
-Run the program and answer the question. Is there another way of writing “red” that will break this logic?
+Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)? It will still tell you that it is incorrect and to try again
+
+
+
+Open main5.py. What do you expect line 11 to do? if it is spelled "red" then it does not matter capitalization
+
+What problem is it trying to solve? the issue of case sensitivity 
+
+Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)? once again, it will tell you it is incorrect
+
+
+
+Open main6.py. How is line 11 different than main5.py? there is now code that says .strip()
+
+What would you guess .strip() is doing? allowing spaces either before or after the word "red"
+
+Run the program and answer the question. Is there another way of writing “red” that will break this logic? spaces between the letters?
 
 
 
