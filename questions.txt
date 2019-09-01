@@ -46,33 +46,34 @@ Open main6.py. How is line 11 different than main5.py? there is now code that sa
 
 What would you guess .strip() is doing? allowing spaces either before or after the word "red"
 
-Run the program and answer the question. Is there another way of writing “red” that will break this logic? spaces between the letters?
+Run the program and answer the question. Is there another way of writing “red” that will break this logic? spaces between the letters? Yes creating spaces between individual letters will create an error.
 
 
 
-Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
+Open main7.py. Before running this program, how do you expect this to be different than main6.py? If pink is printed then the program will say "close"
 
-What is the purpose of line 11? 
+
+What is the purpose of line 11? Make the program run lower case letters and get rid of spaces
 
 Run the program and answer the question.
 
 
 
-Open main8.py. What is the purpose of line 11? 
+Open main8.py. What is the purpose of line 11? Saying that the correct color is red, however there is more code that allows other responses to different answers.
 
-Why are lines 12–19 indented? 
+Why are lines 12–19 indented? Because they are the children of the while statement
 
-Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
+Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? You would only get one attempt at guessing red. 
 
 Make that change and run the program again. To end any Python program, you can type ctrl-c.
 
 
 
-Open main9.py. What is happening on line 12? 
+Open main9.py. What is happening on line 12? while loop was created for the answer red
 
-What is the purpose of “count”? 
+What is the purpose of “count”? to count how many tries it took to guess the correct answer
 
-What is happening on line 22? 
+What is happening on line 22? printing how many times it took to guess the answer by using the count. 
 
 Run the program.
 
@@ -81,4 +82,4 @@ Run the program.
 
 Commit your changes and push them back to the repository. 
 
-Did you do the extra credit?
+Did you do the extra credit? Yes
